@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<!-- <img src="https://blog.uptodown.com/wp-content/uploads/clash-royale-deck-check-featured.jpg"> -->
+	<h1>Crystal Collector!</h1>
+	<div>
+		<p>Instructions:</p>
+		<br>
+			<li>You will be given a random number at the start of the game.</li>
+			<li>There ar four crytasl below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+			<li>You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.</li>
+			<li>The value of each crytal is hidden from you until you click on it.</li>
+			<li>Each time when the game starts, the game will change the values of each crystal.</li>	
+	</div>
+	<br>
+	<div>
+		<p>Wins: <span id='wins'></span></p>
+		<br>
+		<p>Losses: <span id="losses"></span></p>
+	</div>
+	<br>
+	<p id="result"></p>
+	<br>
+	<div class="crystals"></div>
+	<br>
+	<div><p>Your total score is: <span id="score"></span></p></div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"
+  	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  	crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
